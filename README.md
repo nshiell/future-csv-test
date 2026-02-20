@@ -22,9 +22,11 @@ multiple output files.
 The line "...The script should be able to reformat the files into CSV files ..."
 implied multiple files, so the script does that.
 
+**(A subsequent code addition made the project also write CSV to only one file).**
+
 ## Structure
 My strategy for building the project and demonstrate good OOP skills
-was to divide. input, process and output into different modules (classes):
+was to divide, input, process and output into different modules (classes):
 
 **CsvReader**
 - knows how to read a file line by line and return the line into a keyed array
