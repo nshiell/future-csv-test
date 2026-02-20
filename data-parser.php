@@ -43,3 +43,6 @@ $parser = new NShiell\FuturePlc\DataParser\Parser(
 
 $csvWriterFuture = new NShiell\FuturePlc\DataParser\CsvWriterFuture($pathOutputCsv, $pathImportLogDir);
 $parser->parse($csvWriterFuture);
+
+$csvWriterFutureOneFile = new NShiell\FuturePlc\DataParser\CsvWriterFutureOneFile($pathOutputCsvOneFile);
+$parser->parse($csvWriterFutureOneFile);
