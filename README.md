@@ -1,4 +1,4 @@
-# Future Labs CSV CSV data parser
+# Future Labs CSV data parser
 
 This project will process a batch of data from a third party service which is
 not in a format Future can easily import.
