@@ -1,0 +1,17 @@
+{
+    "name": "nshiell/dive-in-server",
+    "autoload": {
+        "psr-4": {
+            "NShiell\\FuturePlc\\DataParser\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Nicholas Shiell",
+            "email": "nicholas@nshiell.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    }
+}
